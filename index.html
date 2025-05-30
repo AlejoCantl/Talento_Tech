@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer sitio web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>ALEJANDRO CANTILLO</h1>
+    <header>
+    <nav id="main-nav">
+            <div class="nav-item"><a href="#1">Sobre mi</a></div>
+            <div class="nav-item"><a href="#2">Mis Hobbies</a></div>
+            <div class="nav-item"><a href="#3">Mis tareas</a></div>
+            <div class="nav-item"><a href="#contact-form">Contacto</a></div>
+    </nav>
+    </header>
+    <h2 id="1">Desarrollador de software</h2>
+    <p>Hola, soy Alejandro Cantillo, un apasionado desarrollador de software con experiencia en diversas tecnologías. Me
+        encanta crear soluciones innovadoras y eficientes.
+        Actualmente, estoy trabajando en un proyecto emocionante que combina mis habilidades en programación y diseño
+        web.</p>
+    <p>En mi tiempo libre, disfruto aprender nuevas tecnologías, participar en comunidades de desarrollo y contribuir a
+        proyectos de código abierto. Siempre estoy buscando formas de mejorar mis habilidades y compartir conocimientos
+        con otros.</p>
+    <figure>
+        <img src="./perfil.jpg" alt="Imagen de perfil">
+        <figcaption>Imagen de perfil</figcaption>
+    </figure>
+
+    <h2 id="2">Mis Hobbies</h2>
+    <ul>
+        <li>Programación</li>
+        <li>Diseño web</li>
+        <li>Contribución a proyectos de código abierto</li>
+        <li>Aprendizaje continuo</li>
+        <li>Participación en comunidades de desarrollo</li>
+    </ul>
+
+    <h2 id="3">Mis Tareas</h2>
+    <ol>
+        <li>Desarrollar aplicaciones web utilizando HTML, CSS y JavaScript.</li>
+        <li>Colaborar en proyectos de código abierto para mejorar mis habilidades y contribuir a la comunidad.</li>
+        <li>Aprender nuevas tecnologías y frameworks para mantenerme actualizado en el campo del desarrollo de software.
+        </li>
+        <li>Participar en foros y comunidades de desarrolladores para compartir conocimientos y resolver problemas.</li>
+        <li>Crear contenido educativo sobre desarrollo de software y diseño web.</li>
+    </ol>
+
+    <h2>Horario semanal</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Día</th>
+                <th>Actividad</th>
+                <th>Hora</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lunes</td>
+                <td>Desarrollo de aplicaciones web</td>
+                <td>9:00 AM - 12:00 PM</td>
+            </tr>
+            <tr>
+                <td>Martes</td>
+                <td>Contribución a proyectos de código abierto</td>
+                <td>1:00 PM - 4:00 PM</td>
+            </tr>
+            <tr>
+                <td>Miércoles</td>
+                <td>Aprendizaje de nuevas tecnologías</td>
+                <td>10:00 AM - 12:00 PM</td>
+            </tr>
+            <tr>
+                <td>Jueves</td>
+                <td>Participación en comunidades de desarrollo</td>
+                <td>2:00 PM - 5:00 PM</td>
+            </tr>
+            <tr>
+                <td>Viernes</td>
+                <td>Creación de contenido educativo</td>
+                <td>11:00 AM - 1:00 PM</td>
+            </tr>
+            <tr>
+                <td>Sábado</td>
+                <td>Revisión de proyectos y planificación</td>
+                <td>10:00 AM - 12:00 PM</td>
+            </tr>
+            <tr>
+                <td>Domingo</td>
+                <td>Descanso y reflexión</td>
+                <td>Todo el día</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Contacto</h3>
+    <p>Si deseas ponerte en contacto conmigo, puedes llenar el siguiente formulario:</p>
+    <form action="" id="contact-form">
+        <h3>Formulario de contacto</h3><br>
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" name="name" placeholder="Ex: Alejandro Cantillo" required><br>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="_replyto" placeholder="Ex: example@email.com" required><br>
+        <label for="message">Asunto:</label><br>
+        <textarea id="message" name="message" rows="4" placeholder="Ex: Hola, estoy interesado..." required></textarea><br>
+        <button type="button" id="btn_enviar">Enviar</button>
+    </form>
+
+</body>
+<footer>
+    <nav id="footer-nav">
+        <div class="f-item"> <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></div>
+        <div class="f-item"> <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a></div>
+        <div class="f-item"> <a href="https://x.com/"><i class="fa-brands fa-twitter"></i></a></div>
+    </nav>
+</footer>
+
+</html>
